@@ -6,7 +6,7 @@ import SocialButtons from "./SocialButtons";
 
 const Banner: React.FC<{}> = () => {
   return (
-    <div className="h-screen w-screen flex flex-col items-center justify-center" >
+    <div id="banner" className="h-screen w-screen flex flex-col items-center justify-center" >
       <div className="flex flex-row items-center justify-center z-[20]">
         <div className="flex flex-col  justify-center  text-center">
           <div className="flex flex-col gap-6 mt-6 cursor-pointer tracking-tighter text-5xl font-semibold text-white/50 c sm:pr-0 md:pr-56">

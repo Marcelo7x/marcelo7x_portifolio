@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+import React, { useRef } from "react";
 import { AndroidOriginal, COriginal, CplusplusOriginal, DartOriginal, DockerOriginal, FirebaseOriginal, FlutterOriginal, JavaOriginal, JavascriptOriginal, MysqlOriginalWordmark, PostgresqlOriginal,  PythonOriginal, GitOriginal, GithubOriginal, LinuxOriginal, Windows11OriginalWordmark  } from 'devicons-react';
 
 const About: React.FC<{}> = () => {
