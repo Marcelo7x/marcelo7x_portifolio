@@ -62,7 +62,7 @@ const Projects: React.FC<{}> = () => {
           </Link>
 
         </div>
-        <div className="flex-col flex md:flex-row items-center p-4">
+        <div className="flex-col flex md:flex-row items-center">
           <Link
             href="https://github.com/Marcelo7x/my_republic/"
             rel="noopener noreferrer"
