@@ -12,7 +12,7 @@ const About: React.FC<{}> = () => {
         <h1 className="text-white font-semibold text-6xl">Sobre</h1>
         <div className="flex flex-col lg:flex-row items-center mt-4">
           <Image
-            className="rounded-full m-4 lg:m-16 z-50"
+            className="rounded-full m-4 lg:m-16 z-[2]"
             src={"/marcelo.webp"}
             height={200}
             width={200}
