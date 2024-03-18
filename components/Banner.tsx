@@ -18,7 +18,7 @@ const Banner: React.FC<{}> = () => {
           <div className="flex flex-col gap-6 cursor-pointer tracking-tighter text-8xl font-semibold text-white c">
             Marcelo
           </div>
-          <p className="text-lg text-center text-gray-200 mt-10 my-5 sm:h-[180px] md:h-[120px] px-3 animate-typing overflow-hidden">
+          <p className="text-lg text-center text-gray-200 mt-10 my-5 sm:h-[180px] h-[120px] max-w-[900px] px-3 animate-typing overflow-hidden">
             <Typewriter
               options={{
                 delay: 30,

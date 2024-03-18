@@ -1,10 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-// import estimateImg from "../assets/images/estimate.png";
-// import myrepublicImg from "../assets/images/my_republic.png";
-// import tutorImg from "../assets/images/tutor.png";
-// import weatherImg from "../assets/images/weather_now.jpg";
+
 
 const Projects: React.FC<{}> = () => {
   return (
@@ -13,7 +10,7 @@ const Projects: React.FC<{}> = () => {
         PROJETOS
       </h1>
 
-      <div className=" container mx-auto 2xl max-w-[900px] ">
+      <div className=" container mx-auto 2xl ">
         <div className="flex-col flex md:flex-row items-center mt-7">
           <Link
             href="https://estimate.gesep.com.br/"
@@ -49,6 +46,7 @@ const Projects: React.FC<{}> = () => {
                 height={150}
                 width={150}
                 alt="Tutor Musical"
+                className="rounded-lg"
               />
               <div className=" p-3 ">
                 <p className="text-white font-semibold text-xl">
@@ -75,6 +73,7 @@ const Projects: React.FC<{}> = () => {
                 height={150}
                 width={150}
                 alt="My Republic"
+                className="rounded-lg"
               />
               <div className="p-3">
                 <p className="text-white font-semibold text-xl">My Republic</p>
@@ -95,7 +94,8 @@ const Projects: React.FC<{}> = () => {
                 src="/weather_now.jpg"
                 height={150}
                 width={150}
-                alt="Payoasis"
+                alt="Weather Now"
+                className="rounded-lg"
               />
               <div className="p-3 ">
                 <p className="text-white font-semibold text-xl">Weather Now</p>

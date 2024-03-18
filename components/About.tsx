@@ -12,7 +12,7 @@ const About: React.FC<{}> = () => {
         <h1 className="text-white font-semibold text-6xl">Sobre</h1>
         <div className="flex flex-col lg:flex-row items-center mt-4">
           <Image
-            className="rounded-full m-4"
+            className="rounded-full m-4 lg:m-16"
             src={"/marcelo.webp"}
             height={200}
             width={200}
@@ -21,23 +21,23 @@ const About: React.FC<{}> = () => {
             <b>Marcelo</b>, um entusiasta da tecnologia e apaixonado por programação. Atualmente, estou cursando <b>Ciência da Computação</b> no último período na <b>Universidade Federal de Viçosa (UFV)</b>, e atualmente atuo como desenvolvedor fullstack. Minhas habilidades abrangem uma variedade de linguagens e tecnologias, incluindo <b>Android, C, C++, Dart, Docker, Firebase, Flutter, Git, GitHub, Java, JavaScript, IOS, Linux, Mac, MySQL, PostgreSQL, Python, Windows, entre outras</b>.<br />Sempre antenado nas últimas tendências tecnológicas, com uma paixão especial pela versatilidade e eficiência, estou constantemente explorando novas ferramentas para aprimorar meu conjunto de habilidades.<br />Além disso, sou um amante da música, e assim como na programação, acredito que a harmonia é essencial para o sucesso. Explore meu portfólio e descubra como transformo ideias em realidade.<br />Vamos criar algo extraordinário juntos!
           </p>
         </div>
-            <div className="flex flex-wrap mt-8 gap-8 animate-pulse">
-              <AndroidOriginal size={64} />
-              <COriginal size={64} />
-              <CplusplusOriginal size={64} />
-              <DartOriginal size={64} />
-              <DockerOriginal size={64} />
-              <FirebaseOriginal size={64} />
-              <FlutterOriginal size={64} />
-              <GithubOriginal className="bg-white rounded-full border-collapse " size={64} />
-              <GitOriginal size={64} />
-              <JavaOriginal size={64} />
-              <JavascriptOriginal size={64} />
-              <LinuxOriginal size={64} />
-              <MysqlOriginalWordmark size={64} />
-              <PostgresqlOriginal size={64} />
-              <PythonOriginal size={64} />
-              <Windows11OriginalWordmark size={64} />
+            <div className="flex flex-wrap items-center justify-center mt-8 gap-6 animate-pulse">
+              <AndroidOriginal size={48} />
+              <COriginal size={48} />
+              <CplusplusOriginal size={48} />
+              <DartOriginal size={48} />
+              <DockerOriginal size={48} />
+              <FirebaseOriginal size={48} />
+              <FlutterOriginal size={48} />
+              <GithubOriginal className="bg-white rounded-full border-collapse " size={48} />
+              <GitOriginal size={48} />
+              <JavaOriginal size={48} />
+              <JavascriptOriginal size={48} />
+              <LinuxOriginal size={48} />
+              <MysqlOriginalWordmark size={48} />
+              <PostgresqlOriginal size={48} />
+              <PythonOriginal size={48} />
+              <Windows11OriginalWordmark size={48} />
             </div>
       </div>
     </section>
