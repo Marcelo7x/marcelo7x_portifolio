@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   ),
   title: "Marcelo7x",
   description: "Developer Portfolio By Marcelo7x",
-  keywords: ["Developer", "Portfolio", "Developer Portflio", "Marcelo, Marcelo7x, Marcelo Nascimento"],
+  keywords: ["Developer", "Portfolio", "Developer", "Portflio", "Marcelo", "Marcelo7x", "Nascimento", "Desenvolvedor", "Fullstack", "Mobile", "Site", "Android", "Ios", "Java", "Kotlin", "Swift", "Dart", "Flutter", "React", "Next", "Node", "Express", "Mongo", "Postgres", "Sql", "Prisma", "Docker", "Aws", "Azure", "Firebase", "Tailwind", "Css", "Html", "Javascript", "Typescript", "Python", "C", "C++", "C#", "Go", "Rust", "Ruby", "Php", "Shell", "Bash", "Powershell", "Linux", "Windows", "Macos", "Web", "Mobile", "Desktop", "Cloud", "Server", "Frontend", "Backend", "Fullstack", "Devops", "Acaiaca", "Viçosa", "MG", "Home", "Office", "Freelancer", "Remote", "Work", "Programmer", "Site", "Computaçao", "Computer", "Science", "Ciencia",],
   openGraph: {
     title: "Marcelo7x",
     description: "Developer fullstack portfolio by Marcelo7x",
