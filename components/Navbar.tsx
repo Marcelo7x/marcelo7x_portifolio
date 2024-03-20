@@ -11,7 +11,7 @@ const Navbar: React.FC<{}> = () => {
   };
 
   const scrollToElement = (id: string) => {
-    toggleMenu();
+    if (id !== "banner" || menuOpen) toggleMenu();
     const element = document.getElementById(id);
     if (element) {
       window.scroll({

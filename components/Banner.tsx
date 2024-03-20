@@ -17,7 +17,7 @@ const Banner: React.FC<{}> = () => {
             Developer
             <span className="text-white font-mono ">&#47;&gt;</span>
           </div>
-          <p className="text-lg text-gray-200 mt-10 sm:h-[180px] h-[120px] px-3 animate-typing overflow-hidden">
+          <p className="text-lg text-gray-200 mt-10 sm:h-[120px] h-[190px] px-3 animate-typing overflow-hidden">
             <Typewriter
               options={{
                 delay: 30,
