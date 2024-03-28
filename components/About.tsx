@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import { AndroidOriginal, COriginal, CplusplusOriginal, DartOriginal, DockerOriginal, FirebaseOriginal, FlutterOriginal, JavaOriginal, JavascriptOriginal, MysqlOriginalWordmark, PostgresqlOriginal,  PythonOriginal, GitOriginal, GithubOriginal, LinuxOriginal, Windows11OriginalWordmark  } from 'devicons-react';
 
 const About: React.FC<{}> = () => {
+  const gradient = "text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-orange-600";
   return (
     <section
       id="about"
@@ -18,7 +19,7 @@ const About: React.FC<{}> = () => {
             width={200}
             alt={"Marcelo photo"}          />
           <p className="text-gray-300 text-justify text-lg pt-8">
-            <b>Marcelo</b>, um entusiasta da tecnologia e apaixonado por programação. Atualmente, estou cursando <b>Ciência da Computação</b> no último período na <b>Universidade Federal de Viçosa (UFV)</b>, e atualmente atuo como desenvolvedor fullstack. Minhas habilidades abrangem uma variedade de linguagens e tecnologias, incluindo <b>Android, C, C++, Dart, Docker, Firebase, Flutter, Git, GitHub, Java, JavaScript, IOS, Linux, Mac, MySQL, PostgreSQL, Python, Windows, entre outras</b>.<br />Sempre antenado nas últimas tendências tecnológicas, com uma paixão especial pela versatilidade e eficiência, estou constantemente explorando novas ferramentas para aprimorar meu conjunto de habilidades.<br />Além disso, sou um amante da música, e assim como na programação, acredito que a harmonia é essencial para o sucesso. Explore meu portfólio e descubra como transformo ideias em realidade.<br />Vamos criar algo extraordinário juntos!
+            Olá, sou o <b>Marcelo</b>, um entusiasta da tecnologia e apaixonado por programação. Atualmente, estou cursando <b>Ciência da Computação</b> no último período na <b>Universidade Federal de Viçosa (UFV)</b>, e atualmente atuo como desenvolvedor fullstack. Minhas habilidades abrangem uma variedade de linguagens e tecnologias, incluindo <b>Android, C, C++, Dart, Docker, Firebase, Flutter, Git, GitHub, Java, JavaScript, IOS, Linux, Mac, MySQL, PostgreSQL, Python, Windows, entre outras</b>.<br />Sempre antenado nas últimas tendências tecnológicas, com uma paixão especial pela versatilidade e eficiência, estou constantemente explorando novas ferramentas para aprimorar meu conjunto de habilidades.<br />Além disso, sou um amante da música, e assim como na programação, acredito que a harmonia é essencial para o sucesso. Explore meu portfólio e descubra como transformo ideias em realidade.<br />Vamos criar algo extraordinário juntos!
           </p>
         </div>
             <div className="flex flex-wrap items-center justify-center mt-8 gap-6 animate-pulse">

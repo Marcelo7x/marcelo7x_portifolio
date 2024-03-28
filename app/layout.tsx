@@ -3,8 +3,32 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import StarsCanvas from "@/components/main/StarsBackground";
 import Navbar from "@/components/Navbar";
+import { initializeApp } from 'firebase/app';
+import { getAnalytics, isSupported } from "firebase/analytics";
+
 
 const inter = Inter({ subsets: ["latin"] });
+
+// const firebaseConfig = {
+//   apiKey: "AIzaSyBiCnAWMWJSy90SeTLXwtggf-h2_XnvGQM",
+//   authDomain: "marcelo7x-portifolio.firebaseapp.com",
+//   projectId: "marcelo7x-portifolio",
+//   storageBucket: "marcelo7x-portifolio.appspot.com",
+//   messagingSenderId: "810952788501",
+//   appId: "1:810952788501:web:3e501905bc3220f3b09c1c",
+//   measurementId: "G-FJ7J0EKEH7"
+// };
+
+// let firebaseApp; let analytics;
+// if(typeof window != undefined){
+//   let app = initializeApp(firebaseConfig);
+//   analytics = isSupported().then(yes => yes ? getAnalytics(app) : null);
+//   firebaseApp = app;
+// }
+
+
+// export {firebaseApp, analytics}
+
 
 export const metadata: Metadata = {
   metadataBase: new URL(
